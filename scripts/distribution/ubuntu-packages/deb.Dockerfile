@@ -11,7 +11,7 @@ RUN mkdir -p /pkg-root/binaries
 RUN cp /build/bin/concordium-node /pkg-root/binaries/concordium-node
 RUN cp /build/bin/node-collector /pkg-root/binaries/concordium-node-collector
 
-FROM ubuntu:$ubuntu_version
+FROM debian:$ubuntu_version
 
 COPY --from=binaries /pkg-root /pkg-root
 
