@@ -13,7 +13,7 @@ set -euxo pipefail
 
 extra_features=${EXTRA_FEATURES:-""}
 
-flatbuffers_version=v2.0.0
+flatbuffers_version=v2.0.6
 rust_toolchain_version=1.53
 
 # Install dependencies.
