@@ -10,7 +10,7 @@ the official distribution images on dockerhub.
 The image may also be built directly by using
 ```shell
 image_name=testnet-node\
-image_tag=4.2.1\
+image_tag=4.2.3\
 environment=testnet\
 genesis_ref=master\
 genesis_path=testnet/2022-06-13/genesis_data\
