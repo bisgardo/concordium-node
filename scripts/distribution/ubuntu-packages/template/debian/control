@@ -1,6 +1,6 @@
 Source: concordium-${build_env_name_lower}-node
 Maintainer: Concordium developers <developers@concordium.com>
-Build-Depends: debconf ( >= 1.5.73 ), debhelper ( >= 12 ), dh-exec
+Build-Depends: debconf ( >= 1.5 ), debhelper ( >= 12 ), dh-exec
 
 Package: concordium-${build_env_name_lower}-node
 Section: extra
