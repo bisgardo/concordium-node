@@ -10,7 +10,7 @@ RUN GHC_VERSION="$ghc_version" \
       /build/scripts/static-libraries/build-static-libraries.sh
 
 # Build static node binaries.
-FROM ubuntu:$ubuntu_version
+FROM debian:$ubuntu_version
 
 COPY scripts/static-binaries/build-on-ubuntu.sh /build-on-ubuntu.sh
 COPY . /build
